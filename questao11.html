@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Questão 11</title>
+    
+</head> 
+<body>
+        
+    <h2>Na questão 11 a função "multiplicacao" não está sendo chamada pois seu nome é "multiplicacao" e não "multiplica", por este motivo nada será retornado </h2>
+    
+    <br><br>
+    <h3>Resultados da função chamada corretamente</h3>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+
+<script>
+    function multiplicacao (num1,num2) {
+     let resultado = num1 * num2;
+    return resultado;
+    }
+
+    document.getElementById('p1').innerHTML = multiplicacao(4, 7);
+    document.getElementById('p2').innerHTML = multiplicacao(5, 6);
+    document.getElementById('p3').innerHTML = multiplicacao(3, 3);
+    
+</script>
+</body>
+</html>
